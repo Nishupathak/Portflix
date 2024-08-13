@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Nishu Pathak's Portfolio</title>
+ <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="Stylesheet" href="style.css">
+
+</head>
+<header class="header">
+        <a href="#" class="logo">My Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#Experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#blogs">Blogs</a>
+         <a href="#contact">Contact</a>
+    </nav>
+    </header>
+    
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello...✌️</h3>
+            <h1>Nishu Pathak</h1>
+            <h3>I'm a <span>Full stack Developer</span></h3>
+            <p>I am an enthusiastic and passionate Web developer from Chaudhary Devi Lal University Haryana.</p>
+            <div class="social-media">
+                <a href="#" ><i class='bx bxl-meta'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+
+            </div>
+            <a href="#" class="btn"> Download Resume!</a>
+            <a href="" /* \\ */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        for (int i = 0; i < t; i++) {
+            int n = sc.nextInt();
+            int [] P = new int[n];
+            for(int j =0;j<P.length;j++){
+                P[j]=sc.nextInt();
+            }
+            HashMap<Integer, Integer> hm = new HashMap<>();
+            for(int j=0;j<n;j++){
+                if(!hm.containsKey(P[j])){
+                    hm.put(P[j],1);
+                }
+                else {
+                    hm.put(P[j],hm.get(P[j])+1);
+                }
+            }
+            int count=0;
+            for(int key :hm.keySet()){
+                if ( hm.get(key)%key==0) {
+                    count++;
+                }
+                else{
+                    System.out.println("NO");
+                    break;
+                }
+            }
+            if(count==hm.size()){
+                System.out.println("YES");
+            }
+
+       }
+	}
+} package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        for (int i = 0; i < t; i++) {
+            int n = sc.nextInt();
+            int [] P = new int[n];
+            for(int j =0;j<P.length;j++){
+                P[j]=sc.nextInt();
+            }
+            HashMap<Integer, Integer> hm = new HashMap<>();
+            for(int j=0;j<n;j++){
+                if(!hm.containsKey(P[j])){
+                    hm.put(P[j],1);
+                }
+                else {
+                    hm.put(P[j],hm.get(P[j])+1);
+                }
+            }
+            int count=0;
+            for(int key :hm.keySet()){
+                if ( hm.get(key)%key==0) {
+                    count++;
+                }
+                else{
+                    System.out.println("NO");
+                    break;
+                }
+            }
+            if(count==hm.size()){
+                System.out.println("YES");
+            }
+
+       }
+	}
+}" target="_blank"><button class="btn-nishu">👆</button></a>
+				</div>
+             
+            </div>
+
+        <div class="home-img">
+            <span class="dot"></span>
+          <img src="profile.jpg" alte="image">
+        </div>
+    </section>
+<section class="about" id="about">
+        <div class="about-img">
+            <img src="ds1.jpg" alt="image">
+        
+        </div>
+      <div class="about-content">
+            <h2 class="heading">About <span>Me! </span></h2>
+            <p>Word Hard Lets Success be Your noice!...</p>
+            <h3>Nishu Pathak</h3>
+            <p>Web developer</p>
+            <p>My main specialisation is doing Web Development.As an aspiring Fresher ,I am excited to work on real-world projects and collaborate with new team memebers to learn new tech.My passion for solving challenges brought me to this tech world.I want to share my expertise and learn from others.I am excited to apply my skills to contribute to an innoviative team.</p>
+              <a href="#" class="btn">Connect with me on Linkedin!</a>
+            <a href="https://www.linkedin.com/in/nishu-pathak-391266242" target="_blank"><button class="btn-nishu">👆</button></a>
+				</div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills & Technology</span></h2>
+        <div class="services-container">
+            <div class="services-box"><i class='bx bx-code-alt'></i>
+            <h3> Frontend</h3>
+            <p>** HTML</p>
+            <p>** CSS</p>
+            <p>** Javascript</p>
+            <p>* ReactJS</p>
+            <p>* NextJS</p>
+            <p>* Tailwind CSS</p>
+            <a href="#" class="btn">Read More</a>
+            </div>
+        <div class="services-box"><i class='bx bxs-paint'></i>
+            <h3>Backend</h3>
+            <p>** NodeJS</p>
+            <p>* MongoDB</p>
+            <p>* Firebase</p>
+            <a href="#" class="btn">Read More</a>
+            </div>
+        <div class="services-box"><i class='bx bx-line-chart'></i>
+            <h3>others</h3>
+            <p>** C++</p>
+            <p>** java</p>
+            <p>** Python</p>
+            <p>** VS Code</p>
+            <p>** Github</p>
+            <p>** Netlify</p>
+            <p>** Replit</p>
+            <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="services-container">
+        <div class="services-box"><i class='bx bx-line-chart'></i>
+        <h3>Prjoect || WEBSITES</h3>
+        <p>~ Blog page site</p>
+        <p>~ wordpress site clone</p>
+        <p>~ Netflix site clone</p>
+        <p>~ Amazon site Clone</p>
+        <p>~ Product Landing page website</p>
+        <p>~ Hospital website</p>
+        <p>~ Gamic scroller website</p>
+        <p>~ GolfSage website</p>
+        <p>~ Myntra site clone</p>
+        <p>~ Parallax Tour website</p>
+        <p>~ E-Learning Website</p>
+        <p>~ Gamic Zone website</p>
+</div>
+    </div>
+    <div class="services-container">
+    <div class="services-box"><i class='bx bx-line-chart'></i>
+        <h3>PROJECTS || WEB-APPLICATIONS</h3>
+        <p>~ Analog Clock</p>
+        <p>~ Tic To Toe Game</p>
+        <p>~ Calculator</p>
+        <p>~ File convertor</p>
+        <p>~ To Do WebApp</p>
+        <p>~ Quiz App</p>
+        <p>~ Quote Generator</p>
+        <p>~ Sidebar</p>
+        <p>~ Temperature Convertor</p>
+        <p>~ Background color Generator</p>
+</div>
+
+    </section>
+</section>
+
+<section class="skills" id="skills">
+    <h2 class="heading">Experience!</span></h2>
+    <div class="services-container">
+        <div class="services-box"><i class='bx bx-code-alt'></i>
+        <h3>~Experience</h3>
+        <p>* Web intern at Codsoft</p>
+        <p>* Web intern at CodeClause</p>
+        <p>* Java intern at Internpe</p>
+        <p>* Web intern at Code Alpha</p>
+        <p>* Web intern at DigitalBhem</p>
+        <p>* Full Satck Virtual Training From Open Weaver</p>
+        <p>* Attended Bootcamps of JS,REACTJS,PYTHON from LetsUpgrade</p>
+        </div>
+    <div class="services-box"><i class='bx bxs-paint'></i>
+        <h3>~Certification</h3>
+        <p>* C++,JS,Python Skill Test from TestDome</p>
+        <p>* Responsive AI:Training from OpenWeaver</p>
+        <p>* Datascience with Python from Great Learning</p>
+        <p>* Deal with DSA  from Coding Ninjas</p>
+        <p>* Front End development from Great Learning</p>
+        <p>* Programming Basics from Great Learning</p>
+        <p>* Project build responsive website from EDUCBA</p>
+        <p>* Level UP: Python From Linkedin Learning</p>
+        <p>* Azure World:Azure Fundamental Skill Challenges collection</p>
+        </div>
+    <div class="services-box"><i class='bx bx-line-chart'></i>
+        <h3>~Education</h3>
+        <h3>* Chaudhary Devi Lal university,Sirsa,Haryana</h3>
+        <p>Btech-Computer science engineering|DEC 2021-Invalid Date</p>
+         </div>
+</section>
+     <section class="portfolio" id="portfolio">
+        <h2 class="heading">| Projects |</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="t1.png" alt="" class="src">
+                <div class="portfolio-layer">
+                    <h4>File Convertor!</h4>
+                  
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        
+        <div class="portfolio-box">
+            <img src="p2.png" alt="" class="src">
+            <div class="portfolio-layer">
+                <h4>Blog Page!</h4>
+              
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+            <div class="portfolio-box">
+                <img src="p3.png" alt="" class="src">
+                <div class="portfolio-layer">
+                    <h4>Netflix Website Clone!</h4>
+                   
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="t3.png" alt="" class="src">
+                <div class="portfolio-layer">
+                    <h4>GamicBook!</h4>
+                  
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="te.png" alt="" class="src">
+                <div class="portfolio-layer">
+                    <h4>E-Learning Website!</h4>
+                   
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="p6.png" alt="" class="src">
+                <div class="portfolio-layer">
+                    <h4>Hospital Website!</h4>
+                   
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="ts.png" alt="" class="src">
+                <div class="portfolio-layer">
+                    <h4>SideBar</h4>
+                  
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+         </div>
+         <div class="portfolio-box">
+            <img src="tt.png" alt="" class="src">
+            <div class="portfolio-layer">
+                <h4>Tic To Toe Game!</h4>
+              
+                <a href="#"><i class='bx bx-link-external'></i></a>
+         </div>
+        </div>
+    </div>
+     
+    l</section>
+     <section class="contact" id="contact">
+        <h2 class="heading">!! Lets Connect...</span></h2>
+
+        <form action ="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+
+            </div>
+            <textarea name=""id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit"value="Send Message!" class="btn">
+        </form>
+     </section>
+
+
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Email~ nishupathak208@gmail.com</p>
+            <p>Copyright &copy 2023 by Nishupathak | All Rights Reserved.</p>
+            
+        </div>
+        <img src="html5-logo-24 (1).png" alt="logo">
+        <img src="django-logo-24.png" alt="logo">
+        <img src="css3-logo-24.png" alt="logo">
+        <img src="python-logo-24.png" alt="logo">
+        <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-chevrons-up'></i></a>
+     </div>
+     <script src="script.js"></script>
+
+</body>
+</html>
